@@ -1,0 +1,60 @@
+@use '../abstracts/' as *;
+
+.contact {
+    width: min(100%, 60.8rem);
+    margin: 0 auto;
+    margin-bottom: 15rem;
+    padding: $spacer;
+    padding-top: 8rem;
+
+    & > .second-heading {
+        font-size: $h3-font-size;
+        font-size: 600;
+        text-transform: capitalize;
+        margin-bottom: calc($spacer - .5rem);
+        text-align: center;
+    }
+
+    & > .form {
+        
+        & > div .form__input {
+            
+            &--email {
+                height: 4.2rem;
+            }
+
+            &--textarea {
+                height: 15rem;
+            }
+        }
+
+        & > .btn--submit {
+            --#{$prefix}btn-color: rgba(var(--color-white-000-rgb), 1) !important;
+            --#{$prefix}btn-hover-color: rgba(var(--color-white-000-rgb), 1) !important;
+            --#{$prefix}btn-bg: rgba(var(--color-black-000-rgb), .90) !important;
+            --#{$prefix}btn-hover-bg: rgba(var(--color-black-000-rgb), 1) !important;
+            --#{$prefix}btn-disabled-bg: var(--#{$prefix}secondary-bg);
+
+            padding: 0;
+            box-shadow: none;
+            height: 28px;
+            width: 80px;
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: calc($spacer - .8rem);
+        }
+    }
+}
+
+.spinner {
+
+    &--submit {
+
+        & > .spinner__border {
+            --#{$prefix}spinner-width: 1.6rem;
+            --#{$prefix}spinner-height: 1.6rem;
+        }
+    }
+}

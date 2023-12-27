@@ -1,0 +1,17 @@
+@use '../abstracts/' as *;
+
+.header {
+    --#{$prefix}header-bg: rgba(var(--color-white-000-rgb), .8);
+    --#{$prefix}header-transition-delay: 1s;
+
+    backdrop-filter: blur(.5rem);
+    transition: background var(--#{$prefix}header-transition-delay);
+}
+
+@if $enable-dark-mode {
+    @include color-mode(dark) {
+        .header {
+            --#{$prefix}header-bg: rgba(var(--color-black-000-rgb), .8) !important;
+        }
+    }
+}

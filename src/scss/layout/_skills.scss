@@ -1,0 +1,29 @@
+@use '../abstracts/' as *;
+
+.skills {
+    max-width: 90rem;
+    margin: 0 auto;
+    margin-bottom: 10rem;
+    padding: 0 $spacer;
+    padding-top: 8rem;
+    text-align: center;
+
+    & > .second-heading {
+        font-size: $h3-font-size;
+        font-size: 600;
+        text-transform: capitalize;
+        margin-bottom: calc($spacer + 1rem);
+    }
+
+    &-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: $spacer;
+
+        &__item {
+            border: var(--#{$prefix}border-width) solid var(--#{$prefix}border-color);
+        }
+    }
+}

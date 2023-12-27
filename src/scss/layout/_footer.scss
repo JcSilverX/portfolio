@@ -1,0 +1,18 @@
+@use '../abstracts/' as *;
+
+.footer {
+
+    &--jsx {
+        --#{$prefix}footer-bg: transparent !important;
+
+        text-align: center;
+        box-shadow: none;
+
+        & > .footer__text {
+            max-width: 80rem;
+            padding-left: $spacer;
+            padding-right: $spacer;
+            font-size: 1.2rem;
+        }
+    }
+}

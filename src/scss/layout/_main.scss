@@ -1,0 +1,6 @@
+@use '../abstracts/' as *;
+
+.main {
+    display: grid;
+    grid-template-rows: 100vh repeat(4, auto);
+}

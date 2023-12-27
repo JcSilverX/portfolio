@@ -1,0 +1,27 @@
+@use '../abstracts/' as *;
+
+.about {
+    max-width: 64rem;
+    margin: 0 auto;
+    margin-bottom: 10rem;
+    padding: $spacer;
+    padding-top: 8rem;
+    text-align: center;
+    line-height: calc($spacer + .5rem);
+
+    & > .second-heading {
+        font-size: $h3-font-size;
+        font-size: 600;
+        text-transform: capitalize;
+        margin-bottom: $spacer;
+    }
+
+    &__text {
+        margin-bottom: $spacer;
+
+        &:last-of-type {
+            margin-bottom: 0;
+        }
+    }
+
+}
