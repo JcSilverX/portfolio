@@ -35,7 +35,7 @@ export const projectsData = [
     {
         title: 'Inner Air',
         description: 'A web-based application that aims to provide assistance with breathing exercises.',
-        tags: ['Python', 'Flask', 'sqlit3', 'HTML5', 'SCSS'],
+        tags: ['Python', 'Flask', 'sqlite3', 'HTML5', 'SCSS'],
         imageUrl: innerairImg,
     },
     {
