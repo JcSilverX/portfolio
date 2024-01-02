@@ -40,7 +40,7 @@ export const projectsData = [
     },
     {
         title: 'webtoonsx',
-        description: 'A web-based application where you can discover and share your own stories.',
+        description: 'A web-based application where you can discover or share your own stories.',
         tags: ['HTML5', 'SCSS', 'Python', 'Django', 'PostgreSQL', 'JavaScript'],
         imageUrl: webtoonsxImg,
     },
