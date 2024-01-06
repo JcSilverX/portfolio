@@ -25,6 +25,7 @@ export default function Project({title, description, tags, imageUrl}: ProjectPro
                 scale: scaleProgress,
                 opacity: opacityProgress,
             }}
+            className='even-group'
         >
             <section
                 className='project rounded-3 mb-3'
