@@ -33,16 +33,16 @@ export const projectsData = [
         imageUrl: weatherappxImg,
     },
     {
-        title: 'Inner Air',
-        description: 'A web-based application that aims to provide assistance with breathing exercises.',
-        tags: ['Python', 'Flask', 'sqlite3', 'HTML5', 'SCSS', 'JavaScript'],
-        imageUrl: innerairImg,
-    },
-    {
         title: 'webtoonsx',
         description: 'A web-based application where you can discover or share your own stories.',
         tags: ['HTML5', 'SCSS', 'Python', 'Django', 'PostgreSQL', 'JavaScript'],
         imageUrl: webtoonsxImg,
+    },
+    {
+        title: 'Inner Air',
+        description: 'A web-based application that aims to provide assistance with breathing exercises.',
+        tags: ['Python', 'Flask', 'sqlite3', 'HTML5', 'SCSS', 'JavaScript'],
+        imageUrl: innerairImg,
     },
 ] as const;
 
