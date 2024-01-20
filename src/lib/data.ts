@@ -1,6 +1,7 @@
 import weatherappxImg from '../../public/weatherappx.png';
 import innerairImg from '../../public/innerair.png';
 import webtoonsxImg from '../../public/webtoonsx.jpg';
+import eventoImg from '../../public/evento.png';
 
 export const links = [
     {
@@ -26,6 +27,12 @@ export const links = [
 ] as const;
 
 export const projectsData = [
+    {
+        title: 'Evento',
+        description: 'Coming soon.',
+        tags: ['React', 'TypeScript', 'Prisma', 'Next.js', 'Tailwind', 'PostgreSQL'],
+        imageUrl: eventoImg,
+    },
     {
         title: 'weatherappx',
         description: 'A real-time weather application that provides current weather conditions, 24-hour forecasts, and 10-day forecasts in advance.',
